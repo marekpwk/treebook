@@ -17,11 +17,16 @@ class StatusesControllerTest < ActionController::TestCase
     assert_redirected_to new_user_session_path
   end
 
+  test "should be logged in to post a status"
+    post :create, status: { content: "Hello"}
+    assert_response : redirect
+  end
+
   test "should render new page whe logged in" do
       sign_in users(:jason)
       get :new
       assert_response :success
-
+      assert_redirected_to new_user_session_path
   end  
 
   test "should create status" do
