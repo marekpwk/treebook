@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  
   contnet: MyText
+  user: jason  
 
 two:
-  
   contnet: MyText
+  user: jason

@@ -1,5 +1,5 @@
 jason:
-  first_name: "Jason"
+  first_name: 'Jason'
   last_name: "Seifer"
   email: "jason@seinfer.com"
   profile_name: "sein"
